@@ -10,7 +10,7 @@ namespace dataconn
     {
         static void Main(string[] args)
         { 
-            //Inserting Data Table Values to Sql
+            //Inserting Data Table Values to Sql Server
             string sql = "Data Source=desktop-tb3r1mj;Initial Catalog=access;Integrated Security=True";
             SqlConnection conn = new SqlConnection(sql);
             try
