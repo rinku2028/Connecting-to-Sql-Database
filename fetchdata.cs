@@ -11,7 +11,7 @@ namespace dataconn
         static void Main(string[] args)
         {
 
-            //fetching data from sql and displaying in console
+            //fetching data from sql server and displaying in console 
             string sql = "Data Source=desktop-tb3r1mj;Initial Catalog=access;Integrated Security=True";
             SqlConnection conn = new SqlConnection(sql);
             try
